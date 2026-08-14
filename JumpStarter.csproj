@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <AssemblyName>JumpStarter</AssemblyName>
+    <RootNamespace>JumpStarter</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- These references should be resolved by the developer by adding the game's Managed folder assemblies as references in the IDE. -->
+    <Reference Include="UnityEngine" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="MSCLoader" />
+    <Reference Include="HutongGames.PlayMaker" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\JumpStartMod.cs" />
+    <Compile Include="src\JumpStartManager.cs" />
+    <Compile Include="src\VehicleAdapter.cs" />
+    <Compile Include="src\JumpCable.cs" />
+    <Compile Include="src\Settings.cs" />
+    <Compile Include="src\Utils.cs" />
+  </ItemGroup>
+</Project>

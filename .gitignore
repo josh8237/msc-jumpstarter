@@ -1,0 +1,13 @@
+# Ignore build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.pdb
+*.mdb
+*.vs/
+.vscode/
+
+# Visual Studio
+*.csproj.user

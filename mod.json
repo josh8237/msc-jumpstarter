@@ -1,0 +1,7 @@
+{
+  "id": "jumpstarter",
+  "name": "MSC JumpStarter",
+  "author": "josh8237",
+  "version": "0.1.0",
+  "description": "Adds realistic jumper-cable jump-starting using MSCLoader."
+}
